@@ -7,5 +7,6 @@ jobs:
     steps:
       - name: run bash script
         shell: bash
-        run: cd .github/scripts
-        run: $PWD
+        run: |
+        cd .github/scripts
+        $PWD
