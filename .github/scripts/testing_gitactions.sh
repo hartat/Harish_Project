@@ -1,0 +1,1 @@
+echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
