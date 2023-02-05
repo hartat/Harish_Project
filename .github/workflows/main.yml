@@ -5,4 +5,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      shell: bash
       run: ./.github/scripts/testing_gitactions.sh
