@@ -7,4 +7,5 @@ jobs:
     steps:
       - name: run bash script
         shell: bash
-        run: ./.github/scripts/testing_gitactions.sh
+        run: cd .github/scripts
+        run: $PWD
