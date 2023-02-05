@@ -6,6 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run bash script
-        uses: actions/checkout@v3
         shell: bash
         run: ./.github/scripts/testing_gitactions.sh
