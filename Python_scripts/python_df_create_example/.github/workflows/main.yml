@@ -15,4 +15,4 @@ jobs:
     steps:
       -name: deploy container to git hub package registry
       shell: bash
-      run: ./.github/scripts/create_docker_images_and_push.sh
+      run: ./.github/scripts/test_git_actions.sh
