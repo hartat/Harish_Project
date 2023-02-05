@@ -8,5 +8,5 @@ jobs:
       - name: run bash script
         shell: bash
         run: |
-        cd .github/scripts
-        $PWD
+          cd .github/scripts
+          $PWD
