@@ -1,15 +1,8 @@
-name: harish project workflow
-on: push
-
-
+name: GitHub Actions for harish_project
+run-name: ${{ github.actor }} is testing out GitHub Actions 
+on: [push]
 jobs:
-  build-and-push-image:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-
     steps:
-      -name: deploy container to git hub package registry
-      shell: bash
-      run: ./.github/scripts/test_git_actions.sh
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
