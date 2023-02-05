@@ -8,4 +8,5 @@ jobs:
       - name: run bash script
         shell: bash
         run: |
+          cd /Users/harta/Desktop/Git_repo/Harish_Project/.github
           $PWD
