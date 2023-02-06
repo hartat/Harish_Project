@@ -5,8 +5,8 @@ on: [push]
 env:
   USER_NAME: ${{ secrets.USER_NAME }}
   GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  #REGISTRY: ghcr.io
+  #IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   Explore-GitHub-Actions:
