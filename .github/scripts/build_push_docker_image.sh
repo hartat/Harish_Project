@@ -7,6 +7,6 @@
 cd Python_scripts/python_df_create_example
 echo $PWD
 docker build -t python_df_create_example .
-docker tag python_df_create_example ghcr.io/$secrets.USER_NAME/python_df_create_example_latest
-echo $secrets.GHCR_TOKEN|docker login ghcr.io -u hartat --password-stdin
+docker tag python_df_create_example ghcr.io/$USER_NAME/python_df_create_example_latest
+echo $GHCR_TOKEN|docker login ghcr.io -u hartat --password-stdin
 docker push ghcr.io/python_df_create_example_latest
