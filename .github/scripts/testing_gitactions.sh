@@ -1,1 +1,2 @@
-echo ${{ secrets.USER_NAME }}
+npm run build $secret
+echo ${{ secret.USER_NAME }}
