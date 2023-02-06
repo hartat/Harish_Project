@@ -9,4 +9,6 @@ jobs:
         uses: actions/checkout@v3
       - name: run bash script
         shell: bash
-        run: ./.github/scripts/testing_gitactions.sh
+        run: |
+        chmod +x .github/scripts/testing_gitactions.sh
+        ./.github/scripts/testing_gitactions.sh
