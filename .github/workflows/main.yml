@@ -9,7 +9,7 @@ env:
   #IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  Push to git package registry:
+  Push_to_git_package_registry:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
