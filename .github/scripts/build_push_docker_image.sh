@@ -4,7 +4,8 @@
 #3. Autintacate gir hub package registry
 #4. push tag to git hub package registry
 
-cd /users/harta/desktop/Git_repo/Harish_Project/Python_scripts/python_df_create_example
+cd /__w/Harish_Project/Harish_Project/Python_scripts/python_df_create_example
+echo $PWD
 docker build -t python_df_create_example .
 docker tag python_df_create_example ghcr.io/$secrets.USER_NAME/python_df_create_example_latest
 echo $secrets.GHCR_TOKEN|docker login ghcr.io -u hartat --password-stdin
