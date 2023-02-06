@@ -10,5 +10,5 @@ jobs:
       - name: run bash script
         shell: bash
         run: |
-        chmod +x .github/scripts/testing_gitactions.sh
-        ./.github/scripts/testing_gitactions.sh
+          chmod +x .github/scripts/testing_gitactions.sh
+          ./.github/scripts/testing_gitactions.sh
