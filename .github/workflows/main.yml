@@ -16,5 +16,6 @@ jobs:
         shell: bash
         run: |
           chmod +x .github/scripts/testing_gitactions.sh
+          chmod +x .github/scripts/build_push_docker_image.sh
           ./.github/scripts/testing_gitactions.sh
           ./.github/scripts/build_push_docker_image.sh
