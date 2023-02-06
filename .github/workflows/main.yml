@@ -4,6 +4,7 @@ on: [push]
 
 env:
   USER_NAME: ${{ secrets.USER_NAME }}
+  GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
 
 jobs:
   Explore-GitHub-Actions:
@@ -16,3 +17,4 @@ jobs:
         run: |
           chmod +x .github/scripts/testing_gitactions.sh
           ./.github/scripts/testing_gitactions.sh
+          ./.github/scripts/build_push_docker_image.sh
